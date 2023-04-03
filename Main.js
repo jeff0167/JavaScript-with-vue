@@ -12,10 +12,12 @@ const app = Vue.createApp({
             this.wordTable[2] = this.word.toUpperCase();
         },
         vibrate(){ 
+            alert("clicked vibrate");
          navigator.vibrate(100); // literally that easy
         },
  
         vibratePattern(){ 
+             alert("clicked vibrate pattern");
             navigator.vibrate([300,100,300,100]); 
         }   
     }
