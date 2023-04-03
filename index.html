@@ -46,10 +46,9 @@
 					<tr v-for="(item, index) in wordTable"><td>{{index + 1}}</td><td class="Word">{{item}}</td></tr>
 				</tbody>
 			</table>
+		<button @click="Vibrate">Vibrate Single</button><br>
+		<button @Click="VibratePattern">Vibrate Pattern</button>
 	</div>
-	
-	 <button @click="vibrate()">Vibrate Single</button><br>
-	<button @Click="vibratePattern()">Vibrate Pattern</button>
 
 	<script src="./Main.js"></script>
 
